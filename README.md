@@ -31,25 +31,25 @@ At the heart of AgriLoop is the agri_orchestrator_agent, the central controller 
 
 AgriLoop's agent ecosystem includes:
 
-###1. Waste Classification Agent – waste_classifier
+**1.** Waste Classification Agent – waste_classifier
 This agent analyzes images uploaded by farmers and identifies the type of agricultural waste (e.g., rice husk, banana leaves, jute sticks, potato peels).
 It uses validation tools to ensure accuracy and consistency in classification.
 
-###2. Market Analyst Agent – price_recommender
+**2.** Market Analyst Agent – price_recommender
 This agent fetches market intelligence, understands buyer demands, and suggests fair prices.
 It considers location, waste quality, current trends, and seasonal factors using a structured decision chain.
 
-###3. Buyer Matching Agent – buyer_matcher
+**3.** Buyer Matching Agent – buyer_matcher
 This agent identifies relevant buyers for the waste category, evaluates compatibility, and provides ranked lists. It also can draft outreach messages or negotiate on behalf of the farmer.
 
-###4. Logistics Planner Agent – logistics_planner
+**4.** Logistics Planner Agent – logistics_planner
 This agent estimates transport cost, identifies local carriers, and helps farmers understand feasibility.
 It provides multiple route and pricing options.
 
-###5. Communication & Summary Agent – interaction_writer
+**5.** Communication & Summary Agent – interaction_writer
 This agent drafts messages, summarises transaction details, and ensures farmers receive easy-to-understand guidance, regardless of technical background.
 
-#**Validation Tools**
+**Validation Tools**
 
 AgriLoop uses several ADK-powered validation components:
 QualityCheckAgent validates waste classification.
@@ -57,7 +57,7 @@ PriceValidationAgent ensures price recommendations meet preset standards.
 BuyerFitChecker validates matching results before sharing them with the farmer.
 This layered validation system ensures each stage delivers high-quality, accurate outcomes.
 
-#**Conclusion**
+**Conclusion**
 
 AgriLoop demonstrates how a multi-agent system can reorganize and optimize real-world agricultural workflows. By distributing responsibilities across specialized agents and coordinating them through the ADK-powered orchestrator, AgriLoop achieves:
 
@@ -67,6 +67,6 @@ Seamless automation
 Scalable architecture
 This modular, reusable setup ensures the system can expand to include new waste types, buyer categories, and logistics networks over time.
 
-#**Value Statement**
+**Value Statement**
 
 AgriLoop reduces a farmer’s manual workload by 70–80%, minimizing the time required to find buyers and complete sales. It increases income opportunities by identifying waste categories farmers may not realize have market value. Additionally, businesses benefit from consistent supply and reduced sourcing time. The platform promotes environmental sustainability by reducing burning and encouraging circular resource usage.
