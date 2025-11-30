@@ -1,10 +1,10 @@
-# **Project Overview – AgriLoop**
+ **Project Overview – AgriLoop**
 
 This project contains the core logic for AgriLoop, a multi-agent system designed to help farmers convert agricultural waste into economic value. Built using the Google Agent Development Kit (ADK), AgriLoop automates waste classification, price recommendation, buyer matching, and logistics planning, enabling farmers—especially smallholders—to increase income with minimal effort.
 
 AgriLoop follows a modular, multi-agent architecture, where each agent specializes in one part of the farm-to-market pipeline. A central orchestrator coordinates tasks, ensauring a smooth workflow from waste identification to final sale.
 
-#**Problem Statement**
+**Problem Statement**
 
 Millions of farmers worldwide burn or discard agricultural waste due to lack of access to buyers, price knowledge, transportation, or market networks. This results in:
 
@@ -14,7 +14,7 @@ Underutilized resources that industries could reuse
 High market inefficiency because buyers cannot reliably source raw materials
 The process of finding buyers, negotiating prices, checking transportation options, and ensuring product quality is extremely time-consuming and fragmented. Most farmers do not have the digital literacy, time, or tools to manage these tasks manually.
 
-#**Solution Statement**
+**Solution Statement**
 
 AgriLoop automates the entire waste-to-value pipeline using a team of specialized AI agents:
 
@@ -25,7 +25,7 @@ They generate offers, negotiate, and summarize buyer requirements.
 They plan transport options and estimate logistics cost.
 By reducing manual work and helping farmers reach trustworthy buyers efficiently, AgriLoop transforms waste management into an income-generating opportunity while promoting circular economy practices.
 
-#**Architecture**
+**Architecture**
 
 At the heart of AgriLoop is the agri_orchestrator_agent, the central controller that delegates tasks to a network of specialized agents. Built using the Google ADK, it defines its reasoning model, instructions, and the sub-agents it coordinates. The orchestrator ensures that tasks like classification, price analysis, buyer matching, and logistics planning flow seamlessly.
 
